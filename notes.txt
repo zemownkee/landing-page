@@ -1,0 +1,9 @@
+To-Do:
+
+1. Basic HTML
+2. Basic CSS
+3. Flexbox column for body
+4. anchor header and footer
+5. style header and footer
+6. style body chunks
+7. detail style items
