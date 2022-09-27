@@ -1,2 +1,2 @@
 # landing-page
-TOP Project for scratch build landing page utilizing flexbox
+TOP Flexbox Project for landing page built from scratch with HTML and CSS
