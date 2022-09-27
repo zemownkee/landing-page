@@ -1,0 +1,28 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+    min-height: 100vh;
+}
+
+.header {
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chunk-a {
+
+}
+
+.chunk-b {
+
+}
