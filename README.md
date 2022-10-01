@@ -1,2 +1,4 @@
 # landing-page
-TOP Flexbox Project for landing page built from scratch with HTML and CSS
+Landing page website template built from scratch using HTML and CSS. 
+
+Placeholder image courtesy of https://placeholder.com
