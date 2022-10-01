@@ -34,6 +34,9 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
 }
 
 
@@ -44,7 +47,12 @@ li {
 }
 
 .hero {
+    flex: 1;
+}
 
+
+.imgbox img {
+    width: 100%;
 }
 
 .hero, 
@@ -56,6 +64,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px 0px;
 }
 
 .chunk-a {
@@ -69,6 +78,9 @@ ul {
 h1 {
     padding: 0;
     margin: 0;
+    font-size: 48px;
+    font-weight: 1000;
+    color: #f9faf8;
 }
 
 .chunk-b {
@@ -76,13 +88,19 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px 12%;
+    padding: 20px 15%;
 }
 
 .content-container {
-    display:flex;
+    display: flex;
     gap: 20px;
     justify-content: center;
+}
+
+.chunk-b h2 {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
 }
 
 .content {
@@ -119,15 +137,18 @@ h1 {
 }
 
 .chunk-c {
-    background-color: #878fa0;
+    background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    padding: 60px 12%;
+    padding: 60px 15%;
 }
 
 .quotebox p {
     margin: 0;
     padding: 0;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
 }
 
 .quotebox .quoted {
@@ -138,9 +159,10 @@ h1 {
 .chunk-d {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #3882f6;
-    margin: 20px 12%;
-    padding: 20px;
+    margin: 60px 12%;
+    padding: 30px 60px;
     border-radius: 10px;
     gap: 10px;
 }
@@ -151,10 +173,13 @@ h1 {
     margin: 0px;
 }
 
-.button2 {
-    padding: 10px 30px;
+.chunk-d .button2 {
+    padding: 5px 20px;
+    margin: 0px;
+    font-size: 18px;
     color: white;
     background-color: #3882f6;
     border: 2px solid white;
-    border-radius: 6px;
+    border-radius: 8px;
+    box-sizing: border-box;
 }
