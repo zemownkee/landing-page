@@ -154,6 +154,7 @@ h1 {
 .quotebox .quoted {
     text-align: right;
     font-weight: 500;
+    margin-top: .5em;
 }
 
 .chunk-d {
